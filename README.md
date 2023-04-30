@@ -1,3 +1,3 @@
-# CO3Net
+# CO3Net: Coordinate-Aware Contrastive Competitive Neural Network for Palmprint Recognition
 
-Codes are coming soon!!!
+This repository is a PyTorch implementation of CO3Net (accepted by IEEE Transactions on Instrumentation and Measurement)

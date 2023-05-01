@@ -6,9 +6,6 @@ This repository is a PyTorch implementation of CO3Net (accepted by IEEE Transact
 Palmprint recognition achieves high discrimination for identity verification. Compared with handcrafted local texture descriptors, convolutional neural networks (CNNs) can spontaneously learn optimal discriminative features without any prior knowledge. To further enhance the features' representation and discrimination, we propose a coordinate-aware contrastive competitive neural network (CO$_3$Net) for palmprint recognition. To extract the multi-scale textures, CO$_3$Net consists of three parallel learnable Gabor filters (LGF)-based texture extraction branches that learn the discriminative and robust ordering features. Due to the heterogeneity of palmprints, the effects of different textures on the final recognition performance are inconsistent, and dynamically focusing on the textures is beneficial to the performance improvement. Then, CO$_3$Net introduces the attention modules to explore the spatial information, and selects more robust and discriminative textures. Specifically, coordinate attention is embedded into CO$_3$Net to adaptively focus on the important textures from the positional information. Since it is difficult for the cross-entropy loss to build a compact intra-class and separate inter-class feature space, the contrastive loss is employed to jointly optimize the network. CO$_3$Net is validated on four public datasets, and the results demonstrate the remarkable recognition performance of the proposed CO$_3$Net compared to other state-of-the-art methods.
 
 
-#### Acknowledgments
-Thanks to my all cooperators, they contributed so much to this work.
-
 #### Citation
 If our work is valuable to you, please cite our work:
 ```
@@ -20,3 +17,18 @@ If our work is valuable to you, please cite our work:
   publisher={IEEE}
 }
 ```
+
+#### Requirements
+Our codes were written for ```python```.
+If you wanna try our method, please ensure your 
+```
+pip install requirements.txt
+```
+
+#### Acknowledgments
+Thanks to my all cooperators, they contributed so much to this work.
+
+#### Reference
+We refer to the following repositories:
+* https://github.com/JonnyLewis/compnet
+* https://github.com/houqb/CoordAttention

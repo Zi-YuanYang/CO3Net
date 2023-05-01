@@ -19,11 +19,27 @@ If our work is valuable to you, please cite our work:
 ```
 
 #### Requirements
-Our codes were written for ```python```.
-If you wanna try our method, please ensure your 
+Our codes were implemented by ```PyTorch 1.10``` and ```11.3``` CUDA version. If you wanna try our method, please first install necessary packages as follows:
+
 ```
 pip install requirements.txt
 ```
+
+#### Data Preprocessing
+To help readers to reproduce our method, we also release our training and testing lists (including PolyU, Tongji, IITD, Multi-Spectrum datasets). If you wanna try our method in other datasets, you need to generate training and testing texts as follows:
+
+```
+python ./data/genText.py
+```
+
+#### Training
+After you prepare the training and testing texts, then you can directly run our training code as follows:
+
+```
+python train.py --id_num xxxx --train_set_file xxxx --test_set_file xxxx --des_path xxxx --path_rst xxxx
+```
+
+* batch_size: training batch
 
 #### Acknowledgments
 Thanks to my all cooperators, they contributed so much to this work.

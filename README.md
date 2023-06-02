@@ -58,6 +58,9 @@ python train.py --id_num xxxx --train_set_file xxxx --test_set_file xxxx --des_p
 #### Acknowledgments
 Thanks to my all cooperators, they contributed so much to this work.
 
+#### Contact
+If you have any question or suggestion to our work, please feel free to contact me. My email is cziyuanyang@gmail.com.
+
 #### Reference
 We refer to the following repositories:
 * https://github.com/JonnyLewis/compnet

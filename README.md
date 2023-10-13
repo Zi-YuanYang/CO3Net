@@ -25,6 +25,8 @@ Our codes were implemented by ```PyTorch 1.10``` and ```11.3``` CUDA version. If
 pip install requirements.txt
 ```
 
+If you've already tried our another work [CCNet](https://github.com/Zi-YuanYang/CCNet), you don't have to reinstall the requirements.
+
 #### Data Preprocessing
 To help readers to reproduce our method, we also release our training and testing lists (including PolyU, Tongji, IITD, Multi-Spectrum datasets). If you wanna try our method in other datasets, you need to generate training and testing texts as follows:
 

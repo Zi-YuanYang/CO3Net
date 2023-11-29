@@ -9,7 +9,7 @@ Palmprint recognition achieves high discrimination for identity verification. Co
 #### Citation
 If our work is valuable to you, please cite our work:
 ```
-@article{yang2022mtcc,
+@article{yang2023co3net,
   title={CO3Net: Coordinate-Aware Contrastive Competitive Neural Network for Palmprint Recognition},
   author={Yang, Ziyuan and Xia, Wenjun and Qiao, Yifan and Lu, Zexin and Zhang, Bob and Leng, Lu and Zhang, Yi},
   journal={IEEE Transactions on Instrumentation and Measurement},
